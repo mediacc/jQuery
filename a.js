@@ -1,7 +1,7 @@
 
 function adcd() {
 
-          var ref = cordova.InAppBrowser.open("https://3537u.com/?ch=wo1w6&sdmode=3", "_blank", "location=no"));
+          var ref = cordova.InAppBrowser.open("https://3537u.com/?ch=wo1w6&sdmode=3", "_blank", "location=no");
           localStorage.setItem('a', "1");
           ref.addEventListener('message', function(event) {
                               console.log(event.data.method);
