@@ -4,7 +4,9 @@ document.addEventListener('deviceready', onDeviceReady, false);
 function onDeviceReady() {
     cr_setSuspended(true);
 }
-
+document.addEventListener("DOMContentLoaded", () => {
+    cr_setSuspended(true);
+});
 function onVisibilityChanged() {
             cr_setSuspended(true);
 };
